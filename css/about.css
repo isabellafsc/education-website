@@ -1,4 +1,4 @@
-/* ------------------------------ ACHEIVEMENTS ------------------------------ */
+/* ---------------------------- ACHEIVEMENTS ---------------------------- */
 .about__achievements {
   margin-top: 3rem;
 }
@@ -120,7 +120,6 @@
 /* ====================== MEDIA QUERIES (TABLETS) ====================== */
 
 @media screen and (max-width: 1024px) {
-  /* ------------------------------ ACHEIVEMENTS ------------------------------ */
 
   .about__achievements {
     margin-top: 2rem;
@@ -136,8 +135,6 @@
     margin: 0 auto;
   }
 
-  /* ------------------------------ TEAM ------------------------------ */
-
   .team__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
@@ -150,15 +147,12 @@
 
 /* ====================== MEDIA QUERIES (PHONES) ====================== */
 
-@media screen and (max-width: 625px) {
-  /* ------------------------------ ACHEIVEMENTS ------------------------------ */
+@media screen and (max-width: 600px) {
 
   .achievements__cards {
     grid-template-columns: 1fr 1fr;
     gap: 0.7rem;
   }
-
-  /* ------------------------------ TEAM ------------------------------ */
 
   .team__container {
     grid-template-columns: 1fr 1fr;
